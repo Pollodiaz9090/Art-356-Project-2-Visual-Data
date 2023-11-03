@@ -1,7 +1,7 @@
 let gotData, consoleArray;
 
 function setup() {
-  createCanvas(1872, 958);
+  createCanvas(1199, 500);
 }
 
 function preload() {
@@ -21,7 +21,7 @@ function draw() {
     for (let i = 0; i < numRows; i++) {
       let x = 50;
       let y = 100 + (i * 100);
-      let w = consoleArray[i][1].globalSales*0.0000020;
+      let w = consoleArray[i][1].globalSales*0.0000012;
       let h = 35;
       push();
       let colorPick1 = consoleArray[i][1].color[0];
