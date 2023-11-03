@@ -1,0 +1,44 @@
+{
+    
+    "playstationSales": {
+        "name": "Playstation",
+        "globalSales": 518790000,
+        "usSales": 101860000,
+        "americas": 93880000,
+        "europe": 53000000,
+        "asia": 108230255,
+        "australia": 9400000,
+        "color": [0, 0, 255]
+    },
+    "xboxSales": {
+        "name": "XBOX",
+        "globalSales": 187000000,
+        "usSales": 53300000,
+        "americas": 54870000,
+        "europe": 12500000,
+        "asia": 4162782,
+        "australia": 700000,
+        "color": [0, 255, 0]
+    },
+    "nintendoSales": {
+        "name": "Nintendo",
+        "globalSales": 863070000,
+        "usSales": 188340000,
+        "americas": 285190000,
+        "europe": 102740000,
+        "asia": 216529955,
+        "australia": 2267899,
+        "color": [255, 0, 0]
+    },
+    "SegaSales": {
+        "name": "Sega",
+        "globalSales": 84500000,
+        "usSales": 29600000,
+        "americas": 37440000,
+        "europe": 32985000,
+        "asia": 16456000,
+        "australia": 950000,
+        "color": [10, 130, 250]
+    }
+    
+}
