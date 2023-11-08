@@ -1,10 +1,11 @@
 let gotData, consoleArray;
 
 function setup() {
-  createCanvas(1199, 500);
+  createCanvas(1500, 500);
 }
 
 function preload() {
+  // font = loadFont('PixelifySans-VariableFont_wght.ttf')
   loadJSON("consoleSales.json", getData);
 }
 function getData(data) {
@@ -31,8 +32,9 @@ function draw() {
       let colorPick3 = consoleArray[i][1].color[2];
       fill(colorPick1, colorPick2, colorPick3);
       rect(x, y, w, h);
-      textSize(25);
-      text(consoleArray[i][1].name, x, y - 5);
+      textSize(30);
+      textFont('Pixelify Sans');
+      text(consoleArray[i][1].name, x, y - 10);
       pop();
     }
   }
