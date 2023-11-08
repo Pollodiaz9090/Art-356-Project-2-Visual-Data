@@ -1,7 +1,7 @@
 let gotData, consoleArray;
 
 function setup() {
-  createCanvas(1500, 500);
+  createCanvas(1885, 500);
 }
 
 function preload() {
